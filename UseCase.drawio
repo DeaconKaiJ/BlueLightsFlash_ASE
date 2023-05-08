@@ -1,0 +1,92 @@
+<mxfile host="65bd71144e">
+    <diagram id="B7099fR4u4TiieNFcxP_" name="Page-1">
+        <mxGraphModel dx="1031" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="170" width="460" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="380" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Play Game" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="120" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Playing Game" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="190" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Use Case Name:&lt;br&gt;Play the game.&lt;br&gt;&lt;br&gt;Related Requirements:&lt;br&gt;System must allow the user to progress with the journey&lt;br&gt;&lt;br&gt;Goal In Context:&lt;br&gt;User must complete the game.&lt;br&gt;&lt;br&gt;Precondition:&lt;br&gt;1. Minimum one player must be playing the game&lt;br&gt;&lt;br&gt;Successful End Condition:&lt;br&gt;1. Player reaches THE end of the story&lt;br&gt;2. Player reaches AN end point of the story&lt;br&gt;&lt;br&gt;Failed End Condition:&lt;br&gt;1. Player stops playing the game half way through&lt;br&gt;2. Player never chooses correct path&lt;br&gt;&lt;br&gt;Actors:&lt;br&gt;1. Player&lt;br&gt;&lt;br&gt;Triggers:&lt;br&gt;1. Player selects an option to go down&lt;br&gt;&lt;br&gt;Main Flow:&lt;br&gt;1. Player starts game&lt;br&gt;2. Player reads prompt&lt;br&gt;3. Player selects an option they like&lt;br&gt;4. Player understands the consequences of their actions&lt;br&gt;5. Repeat process 2 to 4 untill end&lt;br&gt;6. Story concludes&lt;br&gt;7. Game ends" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="130" width="290" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Start Game" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="390" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Play Game" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="280" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=none;html=1;fontSize=9;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="440" as="sourcePoint"/>
+                        <mxPoint x="670" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=none;html=1;fontSize=9;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="165" y="420" as="sourcePoint"/>
+                        <mxPoint x="290" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Select Options" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="350" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=9;exitX=0.942;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="12">
+                    <mxGeometry x="0.0147" y="19" width="160" relative="1" as="geometry">
+                        <mxPoint x="560" y="410" as="sourcePoint"/>
+                        <mxPoint x="720" y="410" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="End Game" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="500" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=none;html=1;fontSize=9;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="165" y="420" as="sourcePoint"/>
+                        <mxPoint x="290.0000000000034" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Complete Game" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="250" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=9;exitX=0.94;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="17">
+                    <mxGeometry x="0.0147" y="19" width="160" relative="1" as="geometry">
+                        <mxPoint x="393.6200000000001" y="319.32000000000005" as="sourcePoint"/>
+                        <mxPoint x="458.7240111544936" y="353.54846829513815" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Select Correct Option" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="410" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Select Incorrect Option" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="450" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.415;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="20" target="12">
+                    <mxGeometry x="-0.0872" y="33" width="160" relative="1" as="geometry">
+                        <mxPoint x="393.6200000000001" y="319.32000000000005" as="sourcePoint"/>
+                        <mxPoint x="474.4738802438278" y="363.3632647328859" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=9;entryX=0.935;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="19" target="12">
+                    <mxGeometry x="-0.5667" y="-19" width="160" relative="1" as="geometry">
+                        <mxPoint x="465" y="450" as="sourcePoint"/>
+                        <mxPoint x="495.6500000000001" y="401.1200000000001" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
